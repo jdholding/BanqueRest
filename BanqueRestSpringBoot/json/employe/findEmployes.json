@@ -1,0 +1,20 @@
+
+http://localhost:8080/BanqueRestSpringBoot/employes?nom=Hillary CLINTON
+
+http://localhost:8080/BanqueRestSpringBoot/employes?nom=Barack OBAMA
+
+http://localhost:8080/BanqueRestSpringBoot/employes?nom=Donald TRUMP
+
+
+
+http://localhost:8080/BanqueRestSpringBoot/employe/compte?compteCode=0001-CC
+
+http://localhost:8080/BanqueRestSpringBoot/employe/compte?compteCode=0001-CE
+
+http://localhost:8080/BanqueRestSpringBoot/employe/compte?compteCode=0002-CC
+
+
+
+http://localhost:8080/BanqueRestSpringBoot/employe/operation?operationNumero=1
+
+http://localhost:8080/BanqueRestSpringBoot/employe/operation?operationNumero=2

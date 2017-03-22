@@ -1,0 +1,5 @@
+[
+	{"code": "0001-CC", "solde": 3000, "decouvert":500, "type": "CC", "client":{"code":"1"}, "employe":{"code":"1"}},
+	{"code": "0001-CE", "solde": 3000, "taux":0.045, "type": "CE", "client":{"code":"1"}, "employe":{"code":"2"}},
+	{"code": "0002-CC", "solde": 3500, "decouvert":500, "type": "CC", "client":{"code":"2"}, "employe":{"code":"1"}}
+]

@@ -1,0 +1,6 @@
+
+http://localhost:8080/BanqueRestSpringBoot/comptes?clientCode=1
+
+http://localhost:8080/BanqueRestSpringBoot/comptes?clientCode=2
+
+http://localhost:8080/BanqueRestSpringBoot/comptes?clientCode=3
