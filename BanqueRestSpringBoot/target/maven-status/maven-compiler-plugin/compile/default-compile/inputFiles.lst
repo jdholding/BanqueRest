@@ -15,12 +15,15 @@ C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRest
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\model\CompteEpargne.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\metier\IEmployeMetier.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\metier\EmployeMetierImpl.java
+C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\metier\IOperationMetier.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\service\ClientRestService.java
+C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\service\OperationRestService.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\model\Versement.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\metier\CompteMetierImpl.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\dao\IEmployeRepository.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\service\EmployeRestService.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\dao\IClientRepository.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\model\Operation.java
+C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\metier\OperationMetierImpl.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\dao\IOperationRepository.java
 C:\Users\94010-24-03\workspace\ProgrammationWebServices\01-SpringREST\BanqueRestSpringBoot\src\main\java\afpa\cdi\banque\model\Retrait.java

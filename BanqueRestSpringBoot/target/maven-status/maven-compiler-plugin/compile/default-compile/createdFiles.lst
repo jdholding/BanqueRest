@@ -9,6 +9,7 @@ afpa\cdi\banque\model\Employe.class
 afpa\cdi\banque\BanqueApplication.class
 afpa\cdi\banque\service\ClientRestService.class
 afpa\cdi\banque\web\WebInitializer.class
+afpa\cdi\banque\service\OperationRestService.class
 afpa\cdi\banque\model\Operation.class
 afpa\cdi\banque\model\Versement.class
 afpa\cdi\banque\service\CompteRestService.class
@@ -21,6 +22,8 @@ afpa\cdi\banque\exception\IllegalOperationException.class
 afpa\cdi\banque\metier\CompteMetierImpl.class
 afpa\cdi\banque\model\Client.class
 afpa\cdi\banque\model\CompteEpargne.class
+afpa\cdi\banque\metier\IOperationMetier.class
 afpa\cdi\banque\metier\EmployeMetierImpl.class
 afpa\cdi\banque\metier\IEmployeMetier.class
+afpa\cdi\banque\metier\OperationMetierImpl.class
 afpa\cdi\banque\dao\IOperationRepository.class

@@ -17,6 +17,10 @@ import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
+
 
 /**
  * @author 1603599
@@ -26,12 +30,18 @@ import javax.persistence.ManyToOne;
 @Entity
 @Inheritance(strategy=InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name="TYPE_OPERATION", discriminatorType=DiscriminatorType.STRING, length=1)
+@JsonTypeInfo(use=JsonTypeInfo.Id.NAME, include=JsonTypeInfo.As.PROPERTY, property="type")
+@JsonSubTypes({
+	@Type(name="R", value=Retrait.class),
+	@Type(name="V", value=Versement.class)
+})
 public abstract class Operation implements Serializable {
 
 	
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long numero;
 	
+
 	private Date date;
 	private double montant;
 	

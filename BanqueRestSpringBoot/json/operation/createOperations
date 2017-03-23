@@ -1,0 +1,15 @@
+{"compte":{"type":"CC", "code":"0001-CC"}, "type":"V", "montant":50, "employe":{"code":"1"}},
+
+{"compte":{"type":"CE", "code":"0005-CE"}, "type":"V", "montant":100, "employe":{"code":"4"}},
+    
+{"compte":{"type":"CC", "code":"0011-CC"}, "type":"V", "montant":200, "employe":{"code":"2"}},
+
+{"compte":{"type":"CE", "code":"0014-CE"}, "type":"R", "montant":500, "employe":{"code":"6"}},
+  
+{"compte":{"type":"CC", "code":"0025-CC"}, "type":"R", "montant":50, "employe":{"code":"5"}},
+  
+{"compte":{"type":"CE", "code":"0018-CE"}, "type":"V", "montant":50, "employe":{"code":"6"}},
+    
+{"compte":{"type":"CE", "code":"0026-CE"}, "type":"R", "montant":30, "employe":{"code":"8"}},
+      
+{"compte":{"type":"CC", "code":"0032-CC"}, "type":"V", "montant":50, "employe":{"code":"1"}},

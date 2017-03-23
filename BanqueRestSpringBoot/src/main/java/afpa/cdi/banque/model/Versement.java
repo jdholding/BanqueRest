@@ -17,6 +17,8 @@ import javax.persistence.Entity;
 @DiscriminatorValue("V")
 public class Versement extends Operation {
 
+
+	
 	/**
 	 * <b>CONSTRUCTEUR SANS ARGUMENTS</b>
 	 */
@@ -32,5 +34,16 @@ public class Versement extends Operation {
 	 */
 	public Versement(Date pDate, double pMontant) {
 		super(pDate, pMontant);
+		
 	}
+
+	
+	
+	
+	
+
+
+
 }
+
+

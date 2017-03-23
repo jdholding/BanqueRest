@@ -3,6 +3,7 @@
  */
 package afpa.cdi.banque.dao;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -20,6 +21,9 @@ import afpa.cdi.banque.model.Operation;
 public interface IOperationRepository extends JpaRepository<Operation, Long> {
 
 	@Query("select o from Operation o where o.compte.code = :xCompteCode")
-	public List<Operation> findByCompteCode(@Param("xCompteCode")String pCompteCode);
+	public List<Operation> findByCompte(@Param("xCompteCode")String pCompteCode);
+	
+	@Query("select o from Operation o where o.date = :xOperationDate")
+	public List<Operation> findByDate(@Param("xOperationDate")Date pDate);
 	
 }

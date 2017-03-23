@@ -5,7 +5,6 @@ package afpa.cdi.banque.metier;
 
 import java.util.List;
 
-import org.springframework.web.bind.annotation.RequestParam;
 
 import afpa.cdi.banque.exception.IllegalOperationException;
 import afpa.cdi.banque.exception.InvalidArgumentException;
@@ -28,7 +27,7 @@ public interface IEmployeMetier {
 	
 	public Employe findByCompte(String pCompteCode);
 	
-	public Employe findByOperation(Long pOperation);
+	public Employe findByOperation(Long pOperationNumero);
 	
 	public List<Employe> findAll();
 
